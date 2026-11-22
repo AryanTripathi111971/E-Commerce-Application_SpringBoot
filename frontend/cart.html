@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shopping Cart | Shoplane</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="index.html">SHOPLANE</a><nav><a href="index.html">Continue shopping</a></nav></header>
+  <main class="cart-page">
+    <p class="eyebrow">YOUR BAG</p><h1>Shopping cart</h1>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-summary"><strong>Total: ₹<span id="total-amount">0</span></strong><button class="button" onclick="checkout()">Place order</button></div>
+    <p class="message">Placing an order requires an existing user ID in the backend database.</p>
+  </main>
+  <script src="js/cart.js"></script>
+</body>
+</html>
