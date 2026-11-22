@@ -112,7 +112,7 @@ This is an educational/demo project. The current user service compares passwords
 ## Limitations
 - No automated tests were included in the supplied project.
 - The frontend API base URL is hard-coded to `http://localhost:8080`.
-- The six original banner/product image files were excluded from this upload; add them under `frontend/img/` to restore the supplied imagery.
+- The original banner/product image files were not included. The uploaded storefront uses a lightweight text-and-CSS layout and does not depend on those image files.
 
 ## License
 No license file was included in the supplied project. Add an appropriate license only if you own the code or have permission to license it.
